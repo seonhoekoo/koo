@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+#grid {
+    display: grid;
+    grid-template-comunms: 150px 1fr
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    border-bottom: 5px double green;
+    border-top: 7px groove yellowgreen;
+    margin: 0;
+    padding: 20px;
+}
+
+#you {
+    text-align: center;
+}
+
+#grid ol {
+    border-right: 2px solid black;
+    width: 100px;
+    margin: 0;
+    padding: 20px;
+}
+
+#article {
+    padding-left: 25px;
+}
