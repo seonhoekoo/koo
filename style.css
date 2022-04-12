@@ -4,7 +4,7 @@ body {
 
 #grid {
     display: grid;
-    grid-template-comunms: 150px 1fr
+    grid-template-columns: 150px 1fr;
 }
 
 
