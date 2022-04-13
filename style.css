@@ -24,10 +24,12 @@ h1 {
 }
 
 #you {
+    background-color: rgb(247, 247, 77);
     text-align: center;
 }
 
 #grid ol {
+    font-style: italic;
     border-right: 2px solid black;
     width: 100px;
     margin: 0;
