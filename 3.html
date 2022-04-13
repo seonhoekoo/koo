@@ -18,12 +18,16 @@
 
 <body>
     <input id="night_day" type="button" value="night" onclick="
-    ifdocument.querySelector('body').style.backgroundColor='gray';
-    document.querySelector('body').style.color='white'">
-       
-    <input type="button" value="day" onclick="
-    document.querySelector('body').style.backgroundColor='white';
-    document.querySelector('body').style.color='black'">
+    var koo=document.querySelector('body')
+    if(this.value === 'night') {
+    koo.style.backgroundColor='gray';
+    koo.style.color='white';
+    this.value = 'day';
+    } else {
+    koo.style.backgroundColor='white';
+    koo.style.color='black';
+    this.value = 'night';
+    }">
 
     <a href="index.html">
         <p id="you"><img src="cute cat.jpeg" width="10%"></a></p>
